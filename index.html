@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/logo.png">
+    <title>Encriptador</title>
+</head>
+<body>
+    
+    <header class="header">
+        <img src="./img/logo.png" alt="logo-alura">
+        <h1>Encriptador de Palabras</h1>
+    </header>
+
+    <main class="main">
+        <section class="section1">
+
+            <textarea class="textarea" placeholder="Ingrese el texto aquí"></textarea>
+
+            <p class="text">*Solo minúsculas y sin acentos</p>
+
+            <div class="container-buttons">
+            <button type="button" class="btn-encrypt">Encriptar</button>
+
+            <button type="button" class="btn-decrypt">Desencriptar</button>
+
+            <button type="button" class="btn-pegar">Pegar</button>
+
+            <button type="button" class="btn-clean1">Limpiar</button>
+            </div>
+
+        </section>
+        <section class="section2">
+            <div class="container-doll">
+                <img src="./img/doll.png" alt="doll">
+            </div>
+            <div class="container-h3">
+                <h3>Ningún mensaje fue encontrado</h3>
+            </div>
+            <div class="container-text">
+                <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <div class="container-result">
+                <h3>Mensaje Encriptado:</h3>
+                <p class="text-result" ></p>
+            </div>
+            <div class="container-copy">
+                <button type="button" class="btn-copy">Copiar</button>
+                <button type="button" class="btn-clean2">Limpiar</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
